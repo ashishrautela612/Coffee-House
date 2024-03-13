@@ -1,0 +1,329 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid white; */
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(34, 40, 49, 255);
+}
+.mainContainer {
+  width: 100%;
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 3.5% 3% 3%;
+  align-items: center;
+  color: white;
+}
+.navItems {
+  display: flex;
+  gap: 2vw;
+  color: white;
+}
+.navItem {
+  color: white;
+  font-size: 20px;
+  -webkit-text-stroke: 1px;
+  padding: 4px 12px;
+}
+
+.navItem:hover {
+  border-bottom: 2px solid green;
+  padding-top: 2px;
+}
+.menuBurger {
+  display: none;
+  cursor: pointer;
+  color: black;
+}
+
+.menuLine {
+  background-color: white;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > img {
+}
+.logo > h2 {
+  font-size: 26px;
+}
+
+.landingPage{
+    color: white;
+    padding: 1% 3.5%;
+    background-image: url(../images/mask_6.png), url(../images/vector_smart_object_doubl_31.png), url(../images/vector_smart_object_doubl_36.png), url(../images/vector_smart_object_doubl_44.png);
+    background-repeat: no-repeat;
+    background-position: right 0rem top 0.5rem, left 33rem bottom 23rem, left 43rem top 2rem, left 24rem bottom 13rem;
+    background-size: 45rem 36rem, 3rem 3rem, 4rem 4rem, 5rem 5rem;
+    position: relative;
+    padding-bottom: 18%;
+}
+
+.landingPageHome{
+    display: flex;
+    flex-direction: column;
+    gap: 3.4vh;
+    width: 50%;
+}
+
+.landingPageTitle{
+    font-family: "Grand Hotel";
+    font-size: 129px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+}
+
+.landingPageHeadLine{
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+.landingPageDescription{
+    width: 74%;
+    line-height: 1.5;
+    font-size: 14px;
+}
+.orderNow{
+    padding: 1.5% 6.2%;
+    font-size: 27px;
+    border-radius: 12px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(41, 161, 156, 255);
+}
+
+.landingBottomImage{
+    position: absolute;
+    bottom: -1%;
+    left: 0;
+    width: 100%;
+}
+
+.landingBottomImage > img{
+    width: 100%;
+}
+
+.bottomMouseImage{
+    position: absolute;
+    top: 1;
+    bottom: 3%;
+    /* left: 2%; */
+    right: 82%;
+}
+
+
+.blackCoffeesContainer{
+  background-color: rgba(41, 161, 156, 255);
+  padding: 5% 9%;
+}
+
+.blackCoffee{
+display: flex;
+justify-content: space-between;
+}
+
+.blackCoffeeLeftContainer{
+width: 31%;
+padding-top: 6%;
+}
+
+.blackCoffeesHeading{
+  font-family: "Grand Hotel";
+    font-size: 118px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+    color: white;
+    line-height: 105px;
+
+}
+
+.blackCoffeeBtn{
+padding-top: 26%;
+}
+
+.blackCoffeeButton{
+  padding: 2.5% 9.2%;
+  font-size: 27px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(34, 40, 49, 255);
+  
+}
+
+.blackCoffeeRightContainer{
+width: 53%;
+}
+
+.blackCoffeeImage{
+width: 80%;
+margin-left: auto;
+}
+
+.blackCoffeeImage > img{
+  width: 100%;
+}
+
+.blackCoffeeDescription{
+  padding-top: 7%;
+  text-align: right;
+  color: white;
+  font-size: 19px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 435px) {
+  .navBar {
+    padding: 3% 3%;
+  }
+
+  .menuBurger {
+    display: block;
+  }
+
+  .menuBurger.active .menuLine:nth-child(2) {
+    opacity: 0;
+  }
+  .menuBurger.active .menuLine:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .menuBurger.active .menuLine:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .navItems.active {
+    left: 0%;
+    z-index: 2;
+    background-color: rgba(34, 40, 49, 255);
+
+    color: white;
+    transition: all 0.45s;
+  }
+
+  .menuLine {
+  }
+
+  .logo {
+  }
+  .navItems {
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    left: -100%;
+    top: 6%;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    transition: all 1s;
+  }
+  .logo > img {
+    height: 30px;
+  }
+  .logo > h2 {
+    font-size: 20px;
+  }
+
+  .navItem:hover {
+    /* all: inherit; */
+  }
+
+  .landingPage{
+
+  }
+  .landingPageHome{
+
+  }
+
+  .landingPageTitle{
+
+  }
+
+  .landingPageHeadLine{
+
+  }
+
+  .landingPageDescription{
+
+  }
+  .orderBtn{
+
+  }
+
+  .orderNow{
+    
+  }
+  .landingBottomImage{
+
+  }
+
+  .bottomMouseImage{
+
+  }
+
+  .blackCoffeesContainer{
+  
+  }
+  
+  .blackCoffee{
+  
+  }
+  
+  .blackCoffeeLeftContainer{
+  
+  }
+  
+  .blackCoffeesHeading{
+  
+  }
+  
+  .blackCoffeeBtn{
+  
+  }
+  
+  .blackCoffeeButton{
+  
+  }
+  
+  .blackCoffeeRightContainer{
+  
+  }
+  
+  .blackCoffeeImage{
+  
+  }
+  
+  .blackCoffeeDescription{
+  
+  }
+}
