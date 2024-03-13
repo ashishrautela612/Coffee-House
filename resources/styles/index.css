@@ -388,6 +388,61 @@ body {
   background-color: rgba(41, 161, 156, 255);
 
 }
+
+
+
+.reviews{
+  padding: 5% 9%;
+  position: relative; 
+  padding-bottom: 18%; 
+}
+.reviewHeading{
+  font-family: "Grand Hotel";
+  text-align: center;
+  font-size: 80px;
+  font-weight: lighter;
+  color: white;
+}
+.customerReviews{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding-top: 3%;
+
+}
+.reviewBottomWave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.reviewBottomWave > img {
+  width: 100%;
+}
+.reviewCard{
+display: flex;
+flex-direction: column;
+gap: 5vh;
+justify-content: center;
+align-items: center;
+}
+.customerImageContainer{
+
+}
+.customerName{
+  font-family: "Grand Hotel";
+  font-size: 48px;
+    font-weight: 300;
+
+}
+.customerReview{
+  width: 74%;
+  text-align: center;
+}
+
+
+
+
 @media (min-width: 320px) and (max-width: 435px) {
   .navBar {
     padding: 3% 3%;
