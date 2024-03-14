@@ -116,7 +116,7 @@ body {
   font-size: 14px;
 }
 
-.mobileLandingPageImage{
+.mobileLandingPageImage {
   display: none;
 }
 
@@ -188,7 +188,7 @@ body {
   line-height: 105px;
 }
 
-.blackCoffeeRightContainerMobile{
+.blackCoffeeRightContainerMobile {
   display: none;
 }
 .blackCoffeeBtn {
@@ -231,21 +231,18 @@ body {
   background-color: rgba(34, 40, 49, 255);
   padding: 5% 9%;
   background-image: url(../images/vector_smart_object_doubl_8.png),
-  url(../images/vector_smart_object_doubl_4.png),
-  url(../images/vector_smart_object_doubl_38.png),
-  url(../images/vector_smart_object_doubl_20.png),
-  url(../images/vector_smart_object_doubl_7.png);
+    url(../images/vector_smart_object_doubl_4.png),
+    url(../images/vector_smart_object_doubl_38.png),
+    url(../images/vector_smart_object_doubl_20.png),
+    url(../images/vector_smart_object_doubl_7.png);
   background-repeat: no-repeat;
-  background-position: top -8rem left -3rem,
-  top 11rem left 2rem,
-  top 28rem left 75rem,
-  top 36rem left 48rem,
-  top 12rem left 43rem;
+  background-position: top -8rem left -3rem, top 11rem left 2rem,
+    top 28rem left 75rem, top 36rem left 48rem, top 12rem left 43rem;
   padding-top: 8%;
   position: relative;
 }
 
-.hotcoffeesAbsolute{
+.hotcoffeesAbsolute {
   display: none;
   width: 100%;
 }
@@ -254,7 +251,7 @@ body {
   width: 100%;
 }
 
-.hotblackCoffeeRightContainerMobile{
+.hotblackCoffeeRightContainerMobile {
   display: none;
 }
 .hotblackCoffee {
@@ -327,10 +324,8 @@ body {
     url(../images/vector_smart_object_doubl_16.png),
     url(../images/vector_smart_object_doubl_17.png);
   background-repeat: no-repeat;
-  background-position: left 16rem bottom 39rem,
-  left 37rem top 18rem,
-    left 73rem bottom 28rem,
-    right 64rem bottom 0rem;
+  background-position: left 16rem bottom 39rem, left 37rem top 18rem,
+    left 73rem bottom 28rem, right 64rem bottom 0rem;
   background-size: 3rem 3rem, 3rem 3rem, 5rem 5rem, 5rem 5rem;
   padding-bottom: 0;
 }
@@ -391,22 +386,20 @@ body {
   font-weight: 400;
 }
 
-.whiteCoffeeRightContainerMobile{
+.whiteCoffeeRightContainerMobile {
   display: none;
 }
-
 
 .voucher {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-image: url(../images/vector_smart_object_doubl_32.png),
-  url(../images/vector_smart_object_doubl_19.png),
-  url(../images/vector_smart_object_doubl_20.png);
+    url(../images/vector_smart_object_doubl_19.png),
+    url(../images/vector_smart_object_doubl_20.png);
   background-repeat: no-repeat;
-  background-position: top 8rem left 69rem,
-  top 26rem left 6rem,
-  top 33rem left 69rem;
+  background-position: top 8rem left 69rem, top 26rem left 6rem,
+    top 33rem left 69rem;
 }
 .voucherHeading {
   font-family: "Grand Hotel";
@@ -436,12 +429,11 @@ body {
   position: relative;
   padding-bottom: 18%;
   background-image: url(../images/vector_smart_object_doubl_25.png),
-  url(../images/vector_smart_object_doubl_31.png),
-  url(../images/vector_smart_object_doubl_24.png);
+    url(../images/vector_smart_object_doubl_31.png),
+    url(../images/vector_smart_object_doubl_24.png);
   background-repeat: no-repeat;
-  background-position: top 28rem left 2rem,
-  top 15rem left 39rem,
-  top 32rem left 71rem;
+  background-position: top 28rem left 2rem, top 15rem left 39rem,
+    top 32rem left 71rem;
 }
 .reviewHeading {
   font-family: "Grand Hotel";
@@ -481,23 +473,21 @@ body {
 }
 .customerReview {
   width: 74%;
-    text-align: center;
-    font-size: 20px;
-    line-height: 1.5;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 .schedualContainer {
   background-color: rgba(41, 161, 156, 255);
   position: relative;
   background-image: url(../images/vector_smart_object_doubl_13.png),
-  url(../images/vector_smart_object_doubl_5.png),
-  url(../images/vector_smart_object_doubl_19.png),
-  url(../images/vector_smart_object_doubl_33.png);
+    url(../images/vector_smart_object_doubl_5.png),
+    url(../images/vector_smart_object_doubl_19.png),
+    url(../images/vector_smart_object_doubl_33.png);
   background-repeat: no-repeat;
-  background-position: left 6rem top 1rem,
-  left 66rem top 2rem,
-  left 16rem top 12rem,
-  left 66rem top 15rem;
+  background-position: left 6rem top 1rem, left 66rem top 2rem,
+    left 16rem top 12rem, left 66rem top 15rem;
 
   /* padding-bottom: 10%; */
 }
@@ -535,18 +525,19 @@ body {
 
 .branches {
   background-image: url(../images/vector_smart_object_doubl_8.png),
-  url(../images/vector_smart_object_doubl_45.png),
-  url(../images/vector_smart_object_doubl_32.png),
-  url(../images/vector_smart_object_doubl_5.png),
-  url(../images/vector_smart_object_doubl_4.png);
+    url(../images/vector_smart_object_doubl_45.png),
+    url(../images/vector_smart_object_doubl_32.png),
+    url(../images/vector_smart_object_doubl_5.png),
+    url(../images/vector_smart_object_doubl_4.png);
   background-repeat: no-repeat;
-  background-position: top -6rem left 0rem,
-  top 10rem left 14rem,
-  top 15rem left 74rem,
-  top 45rem left 24rem,
-  top 49rem left 52rem;
+  background-position: top -6rem left 0rem, top 10rem left 14rem,
+    top 15rem left 74rem, top 45rem left 24rem, top 49rem left 52rem;
   padding-bottom: 10%;
   position: relative;
+}
+
+.branchesWaveUp{
+  display: none;
 }
 
 .branchesHeading {
@@ -746,15 +737,15 @@ body {
     font-size: 20px;
     text-align: center;
   }
-.mobileLandingPageImage{
-  display: block;
+  .mobileLandingPageImage {
+    display: block;
     width: 75%;
     margin: auto;
-}
+  }
 
-.mobileLandingPageImage > img{
-  width: 100%;
-}
+  .mobileLandingPageImage > img {
+    width: 100%;
+  }
   .landingPageDescription {
     width: 100%;
     text-align: center;
@@ -765,7 +756,7 @@ body {
 
   .orderNow {
     font-size: 18px;
-    padding: 4% 14%
+    padding: 4% 14%;
   }
   .landingBottomImage {
   }
@@ -806,7 +797,7 @@ body {
     font-size: 18px;
     padding: 4% 18%;
   }
-  .blackCoffeeRightContainerMobile{
+  .blackCoffeeRightContainerMobile {
     display: block;
   }
 
@@ -822,30 +813,30 @@ body {
   .blackCoffeeDescription {
     text-align: center;
   }
-  .hotblackCoffee{
+  .hotblackCoffee {
     flex-direction: column;
     padding-top: 17%;
   }
 
-  .hotblackCoffeesHeading{
-    font-size:4.4em;
+  .hotblackCoffeesHeading {
+    font-size: 4.4em;
     display: inline;
-line-height: 1;
-padding-top: 0;
+    line-height: 1;
+    padding-top: 0;
   }
 
-  .hotCoffees{
+  .hotCoffees {
     background-image: none;
   }
-  .hotblackCoffeeRightContainer{
+  .hotblackCoffeeRightContainer {
     display: none;
   }
 
-  .hotblackCoffeeRightContainerMobile{
+  .hotblackCoffeeRightContainerMobile {
     display: block;
   }
 
-  .hotcoffeesAbsolute{
+  .hotcoffeesAbsolute {
     position: absolute;
     display: block;
     width: 100%;
@@ -853,7 +844,7 @@ padding-top: 0;
     top: -1%;
   }
 
-  .hotblackCoffeeLeftContainer{
+  .hotblackCoffeeLeftContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -863,21 +854,213 @@ padding-top: 0;
   .hotblackCoffeeImage {
     width: 100%;
     padding-top: 10%;
+  }
+
+  .hotblackCoffeeDescription {
+    text-align: center;
+  }
+
+  .hotblackCoffeeBtn {
+    padding-top: 4vh;
+    width: 54%;
+    margin: auto;
+  }
+
+  .hotblackCoffeeButton {
+    font-size: 18px;
+    padding: 2.5% 17.2%;
+  }
+
+  .whiteCoffeeRightContainer {
+    display: none;
+  }
+  .whiteCoffeeRightContainerMobile {
+    display: block;
+  }
+
+  .whiteCoffeeLeftContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6%;
+  }
+
+  .whiteCoffeesHeading{
+    font-size: 4em;
+    line-height: 1;
+  }
+
+  .whiteCoffeeImage{
+    width: 100%;
+    padding-top: 10%;
+  }
+  .whiteCoffeeDescription{
+    text-align: center;
+  }
+
+  .whiteCoffeeBtn{
+    padding-top: 4vh;
+    width: 54%;
+    margin: auto;
+  }
+
+  .whiteCoffeeButton{
+    font-size: 18px;
+    padding: 4% 14%;
+  }
+
+  .voucher{
+    padding-top: 10%;
+  }
+
+  .voucherHeading{
+    font-size: 5em;
+  }
+
+  .voucherImage{
+    width: 100%;
+  }
+
+  .voucherImage > img {
+    width: 100%;
+  }
+
+  .voucherBtn{
+    font-size: 18px;
+    padding: 1% 3%;
+  }
+
+  .reviews{
+    background-image: none;
+    padding-top: 20%;
+  }
+  .reviewHeading{
+    font-size: 4em;
+    width: 100%;
+  }
+
+  .customerReviews{
+    flex-direction: column;
+    gap: 7vh;
+  }
+
+  .reviewCard{
+    width: 80%;
+    gap: 3vh;
+  }
+
+  .customerImageContainer{
+    width: 100%;
+  }
+
+  .customerImageContainer > img {
+    width: 100%;
+  }
+
+  .customerReview{
+    width: 100%;
+  }
+
+  .schedualContainer{
+    background-image: none;
+    padding-bottom: 10%;
+  }
+
+  .schedual{
+    gap: 3vh;
+  }
+
+  .schedualHeading{
+    font-size: 5em;
+  }
+
+  .day{
+    font-size: 2em;
+  }
+
+  .timing{
+    font-size: 1.5em;
+  }
+
+  .branches{
+    background-image: none;
+  }
+
+  .branchesWaveUp{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: -1%;
+    left: 0;
+  }
+
+  .branchesWaveUp > img {
+    width: 100%;
+  }
+
+  .brachesContainer{
+    padding-top: 20%;
+  }
+
+  .branchesHeading{
+    font-size: 4em;
+  }
+
+  .branchesCards{
+    flex-direction: column;
+  }
+
+  .branchcard{
+    width: 100%;
+    padding-bottom: 10%;
+  }
+
+  .branchDescription{
+    width: 100%;
+  }
+
+  .branchesFooter {
+    position: absolute;
+    bottom: -1%;
+    left: 0;
+    width: 100%;
 }
 
-.hotblackCoffeeDescription{
-text-align: center;
+.footerContainer{
+  flex-direction: column;
 }
 
-.hotblackCoffeeBtn{
-  padding-top: 4vh;
-  width: 54%;
-  margin: auto;
+.footerLinks{
+  width: 100%;
+  padding-top: 10%;
 }
 
-.hotblackCoffeeButton{
+.informationSection{
+  width: 46%;
+}
+
+.footer{
+  padding: 7% 7% 7% 7%;
+}
+
+.sectionHeading{
+  font-size: 1.5em;
+  padding-bottom: 13%;
+}
+
+.footerLinks p{
+  padding-bottom: 3%;
   font-size: 18px;
-  padding: 2.5% 17.2%;
-}
 }
 
+.contactUsSection{
+  width: 46%;
+}
+
+.footerBar{
+  display: none;
+}
+
+
+}
