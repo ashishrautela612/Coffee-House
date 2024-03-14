@@ -95,7 +95,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3.4vh;
-  width: 50%;
+  width: 100%;
 }
 
 .landingPageTitle {
@@ -111,12 +111,20 @@ body {
   letter-spacing: 4px;
 }
 .landingPageDescription {
-  width: 74%;
+  width: 37%;
   line-height: 1.5;
   font-size: 14px;
 }
+
+.mobileLandingPageImage{
+  display: none;
+}
+
+.mobileLandingPageImage > img {
+  width: 100%;
+}
 .orderNow {
-  padding: 1.5% 6.2%;
+  padding: 1% 3%;
   font-size: 27px;
   border-radius: 12px;
   border: none;
@@ -180,6 +188,9 @@ body {
   line-height: 105px;
 }
 
+.blackCoffeeRightContainerMobile{
+  display: none;
+}
 .blackCoffeeBtn {
   padding-top: 26%;
 }
@@ -231,8 +242,21 @@ body {
   top 36rem left 48rem,
   top 12rem left 43rem;
   padding-top: 8%;
+  position: relative;
 }
 
+.hotcoffeesAbsolute{
+  display: none;
+  width: 100%;
+}
+
+.hotcoffeesAbsolute > img {
+  width: 100%;
+}
+
+.hotblackCoffeeRightContainerMobile{
+  display: none;
+}
 .hotblackCoffee {
   display: flex;
   justify-content: space-between;
@@ -288,8 +312,8 @@ body {
   padding-top: 7%;
   text-align: right;
   color: white;
-  font-size: 19px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.8;
   font-weight: 400;
   text-align: left;
 }
@@ -362,10 +386,15 @@ body {
   padding-top: 7%;
   text-align: right;
   color: white;
-  font-size: 19px;
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.8;
   font-weight: 400;
 }
+
+.whiteCoffeeRightContainerMobile{
+  display: none;
+}
+
 
 .voucher {
   display: flex;
@@ -452,8 +481,9 @@ body {
 }
 .customerReview {
   width: 74%;
-  text-align: center;
-  font-size: 18px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 .schedualContainer {
@@ -572,8 +602,8 @@ body {
   text-align: center;
   color: white;
   width: 143%;
-  line-height: 1.5;
-  font-size: 14px;
+  line-height: 1.8;
+  font-size: 16px;
 }
 
 .branchesFooter {
@@ -700,53 +730,154 @@ body {
   }
 
   .landingPage {
+    background: none;
   }
   .landingPageHome {
+    gap: 2vh;
+    align-items: center;
   }
 
   .landingPageTitle {
+    font-size: 60px;
+    text-align: center;
   }
 
   .landingPageHeadLine {
+    font-size: 20px;
+    text-align: center;
   }
+.mobileLandingPageImage{
+  display: block;
+    width: 75%;
+    margin: auto;
+}
 
+.mobileLandingPageImage > img{
+  width: 100%;
+}
   .landingPageDescription {
+    width: 100%;
+    text-align: center;
   }
   .orderBtn {
+    width: 41%;
   }
 
   .orderNow {
+    font-size: 18px;
+    padding: 4% 14%
   }
   .landingBottomImage {
   }
 
   .bottomMouseImage {
+    display: none;
   }
 
   .blackCoffeesContainer {
+    background-image: none;
   }
 
   .blackCoffee {
+    flex-direction: column;
+    padding-bottom: 6%;
   }
 
   .blackCoffeeLeftContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .blackCoffeesHeading {
+    font-size: 4.2em;
+    display: inline;
+    line-height: 1;
   }
 
   .blackCoffeeBtn {
+    width: 54%;
+    margin: auto;
+    padding-top: 4vh;
   }
 
   .blackCoffeeButton {
+    font-size: 18px;
+    padding: 4% 18%;
+  }
+  .blackCoffeeRightContainerMobile{
+    display: block;
   }
 
   .blackCoffeeRightContainer {
+    display: none;
   }
 
   .blackCoffeeImage {
+    width: 100%;
+    padding-top: 10%;
   }
 
   .blackCoffeeDescription {
+    text-align: center;
   }
+  .hotblackCoffee{
+    flex-direction: column;
+    padding-top: 17%;
+  }
+
+  .hotblackCoffeesHeading{
+    font-size:4.4em;
+    display: inline;
+line-height: 1;
+padding-top: 0;
+  }
+
+  .hotCoffees{
+    background-image: none;
+  }
+  .hotblackCoffeeRightContainer{
+    display: none;
+  }
+
+  .hotblackCoffeeRightContainerMobile{
+    display: block;
+  }
+
+  .hotcoffeesAbsolute{
+    position: absolute;
+    display: block;
+    width: 100%;
+    left: 0;
+    top: -1%;
+  }
+
+  .hotblackCoffeeLeftContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hotblackCoffeeImage {
+    width: 100%;
+    padding-top: 10%;
 }
+
+.hotblackCoffeeDescription{
+text-align: center;
+}
+
+.hotblackCoffeeBtn{
+  padding-top: 4vh;
+  width: 54%;
+  margin: auto;
+}
+
+.hotblackCoffeeButton{
+  font-size: 18px;
+  padding: 2.5% 17.2%;
+}
+}
+
