@@ -68,6 +68,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .logo > img {
@@ -594,11 +595,16 @@ body {
   transition: all 0.45s ease-in-out;
 }
 
+/* .branchcard:hover img{
+  transform: scale(1.25) rotate(2deg);
+} */
+
 .branchcard:hover{
   transform: translateY(-20px);
 }
 .branchImage {
   width: 100%;
+  overflow: hidden;
 }
 
 .branchImage > img {
@@ -619,6 +625,18 @@ body {
   color: white;
   background-color: rgba(41, 161, 156, 255);
   width: 88%;
+  position: relative;
+}
+
+.curve{
+  position: absolute;
+  bottom: -32%;
+  left: 0;
+  height: 41px;
+  width: 20px;
+  background-color: rgba(41, 161, 156, 255);
+  border-radius: 0px 8px 2px 27px;
+  
 }
 .branchDescription {
   text-align: center;
@@ -685,6 +703,7 @@ body {
   align-items: center;
   width: 19%;
   gap: 19%;
+  cursor: pointer;
 }
 
 .footerBarItems {
