@@ -16,4 +16,14 @@ The Coffee House website is a virtual platform for coffee enthusiasts to explore
 
 ## Usage
 
-To use the Coffee House website, simply open the `index.html` file in a web browser. You can navigate through the different sections using the links in the navigation bar.
+To use the Coffee House website, follow these steps:
+
+1. **Clone the Repository:**
+
+2. **Navigate to the Repository:**
+
+3. **Open the Website:**
+- Open the `index.html` file in a web browser to view the Coffee House website.
+- You can also use a development server like Live Server in Visual Studio Code to run the website locally.
+
+That's it! You should now be able to access and explore the Coffee House website locally.
